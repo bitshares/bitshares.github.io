@@ -1,0 +1,9 @@
+.animated{
+  animation-duration:1s;
+  animation-fill-mode:both
+}
+.animated:not(.vc_grid-item) {
+  animation-duration: .6s;
+  visibility: hidden;
+}
+/*This file was exported by "Export WP Page to Static HTML" plugin which created by ReCorp (https://myrecorp.com) */
