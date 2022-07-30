@@ -45,7 +45,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
             /* <![CDATA[ */
             var rcewpp = {
                 "ajax_url":"https://bitshares.build/wp-admin/admin-ajax.php",
-                "nonce": "1bdd3e8b46",
+                "nonce": "952c734150",
                 "home_url": "https://bitshares.build/",
                 "settings_icon": 'https://bitshares.build/wp-content/plugins/export-wp-page-to-static-html/admin/images/settings.png',
                 "settings_hover_icon": 'https://bitshares.build/wp-content/plugins/export-wp-page-to-static-html/admin/images/settings_hover.png'
@@ -963,6 +963,7 @@ p {
                     <ul class="social">                            
                                                     <li><a target="_blank" href="https://github.com/bitshares"><em class="fa fa-github"></em></a></li>
                                                     <li><a target="_blank" href="https://t.me/BitSharesGroup"><em class="fa fa-telegram"></em></a></li>
+                                                    <li><a target="_blank" href="https://t.me/BitSharesNews"><em class="fa fa-bullhorn"></em></a></li>
                                             </ul>
                                       <div class="copyright-text">
                         Copyright © 2020 <a href="https://bitshares.build" target="_blank">BitShares</a> & Handcrafted by iO.<span>All trademarks and copyrights belong to their respective owners.</span>                    </div>
