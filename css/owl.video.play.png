@@ -45,7 +45,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
             /* <![CDATA[ */
             var rcewpp = {
                 "ajax_url":"https://bitshares.build/wp-admin/admin-ajax.php",
-                "nonce": "952c734150",
+                "nonce": "df7165b538",
                 "home_url": "https://bitshares.build/",
                 "settings_icon": 'https://bitshares.build/wp-content/plugins/export-wp-page-to-static-html/admin/images/settings.png',
                 "settings_hover_icon": 'https://bitshares.build/wp-content/plugins/export-wp-page-to-static-html/admin/images/settings_hover.png'
@@ -685,13 +685,21 @@ p {
 }
 .btn {
     font-size: 0.9em !important;
+	margin-bottom: 10px !important;
 }
 .team-circle .team-title {
     font-size: 1.1em !important;
 }
 .play-btn > span:last-of-type {
     font-size: 1.1em !important;
-}		</style>
+}
+.btns li .fa::before {
+  font-size: 30px;
+}
+.sub-heading {
+  color: #ffffff !important;
+}
+.team-social {font-size: 1.8em;}		</style>
 		<style id="kirki-inline-styles">.site-header .navbar-brand img{width:50px;}.site-header .navbar-brand{margin-top:20px;margin-bottom:20px;margin-left:0;margin-right:15px;}.has-fixed.site-header .navbar-brand img{width:50px;}.has-fixed.site-header .navbar-brand{margin-top:20px;margin-bottom:20px;margin-left:0;margin-right:15px;}.page-banner{min-height:280px;}h2.page-heading{font-size:34px;}footer.footer-section{padding-top:0px;}/* devanagari */
 @font-face {
   font-family: 'Poppins';
@@ -949,7 +957,7 @@ p {
                                            <span class="error-text-large">404</span>
                       <h5>Opps! Why you’re here?</h5>
                       <p>We are very sorry for inconvenience. It looks like you’re try to access a page that either has been deleted or never existed.</p>
-                      <a href="https://bitshares.build/" class="btn">Back to Home</a>
+                      <a href="https://bitshares.build/" class="btn" data-wpel-link="internal">Back to Home</a>
                   </div>
               </div>
           </div>
@@ -961,12 +969,12 @@ p {
               <div class="col-lg-12 text-center">
                    
                     <ul class="social">                            
-                                                    <li><a target="_blank" href="https://github.com/bitshares"><em class="fa fa-github"></em></a></li>
-                                                    <li><a target="_blank" href="https://t.me/BitSharesGroup"><em class="fa fa-telegram"></em></a></li>
-                                                    <li><a target="_blank" href="https://t.me/BitSharesNews"><em class="fa fa-bullhorn"></em></a></li>
+                                                    <li><a target="_blank" href="https://github.com/bitshares" data-wpel-link="external" rel="nofollow external noopener noreferrer"><em class="fa fa-github"></em></a></li>
+                                                    <li><a target="_blank" href="https://t.me/BitSharesGroup" data-wpel-link="external" rel="nofollow external noopener noreferrer"><em class="fa fa-telegram"></em></a></li>
+                                                    <li><a target="_blank" href="https://t.me/BitSharesNews" data-wpel-link="external" rel="nofollow external noopener noreferrer"><em class="fa fa-bullhorn"></em></a></li>
                                             </ul>
                                       <div class="copyright-text">
-                        Copyright © 2020 <a href="https://bitshares.build" target="_blank">BitShares</a> & Handcrafted by iO.<span>All trademarks and copyrights belong to their respective owners.</span>                    </div>
+                        Copyright © 2022 <a href="https://bitshares.build" target="_blank" data-wpel-link="internal">BitShares</a> & Handcrafted by iO.<span>All trademarks and copyrights belong to their respective owners.</span>                    </div>
                                 </div>
           </div>
       </div>
